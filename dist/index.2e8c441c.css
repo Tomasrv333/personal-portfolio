@@ -1,0 +1,224 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css";
+@import "https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";
+nav {
+  width: 100vw;
+  color: #57cc99;
+  background-color: #4880a5;
+  justify-content: space-between;
+  padding: 3.1rem;
+  display: flex;
+}
+
+nav a {
+  display: none;
+}
+
+nav .nav-title {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+nav .nav-title h2 {
+  color: #57cc99;
+  margin: 0;
+}
+
+nav .nav-title p {
+  color: #f5f5f5;
+  margin: 0;
+}
+
+nav .nav-title svg {
+  display: none;
+}
+
+nav .nav-items {
+  align-items: center;
+  display: flex;
+}
+
+nav .nav-items a {
+  cursor: pointer;
+  margin-left: 6rem;
+}
+
+nav .nav-items svg {
+  width: 24px;
+  height: 24px;
+  margin: 16px 0;
+}
+
+@media (min-width: 576px) {
+  nav {
+    padding: 0;
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 10rem;
+  }
+}
+
+.background {
+  height: 40vh;
+  background-color: #4880a5;
+  padding: 0 3.1rem;
+}
+
+.main-resume {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 3.1rem;
+}
+
+.resume-content h2 {
+  color: #57cc99;
+}
+
+.resume-content p {
+  text-align: justify;
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+.resume-content span {
+  color: #57cc99;
+  font-weight: 600;
+}
+
+.resume-content .resume-links {
+  width: 100%;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  display: flex;
+}
+
+.resume-content .resume-links button {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #57cc99;
+  background-color: #0000;
+  border: .1rem solid #57cc99;
+  border-radius: .6rem;
+  align-items: center;
+  padding: .7rem 1.1rem;
+  display: flex;
+}
+
+.resume-content .resume-links .links-icons {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+}
+
+.resume-content .resume-links .links-icons svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: .2rem;
+  color: #57cc99;
+}
+
+.main-description {
+  padding: 3.1rem;
+}
+
+.main-description h2 {
+  color: #57cc99;
+}
+
+.main-description p {
+  text-align: justify;
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+#main-project {
+  justify-content: center;
+  align-items: center;
+  margin: 3.1rem;
+}
+
+#main-project h2 {
+  color: #57cc99;
+  margin-bottom: 1rem;
+}
+
+#main-project .project-content .project-card {
+  width: 20rem;
+  border: .1rem solid #57cc99;
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+
+#main-project .project-content .project-img {
+  width: 20rem;
+  height: 16rem;
+  background-color: #f5f5f5;
+  margin-bottom: 1rem;
+}
+
+.main-skills {
+  padding: 3.1rem;
+}
+
+.main-skills h2 {
+  color: #57cc99;
+}
+
+.main-education {
+  background-color: #4880a5;
+  margin: 3.1rem 0;
+  padding: 3.1rem;
+}
+
+.main-education h2 {
+  color: #57cc99;
+}
+
+.main-aditional {
+  padding: 3.1rem;
+}
+
+.main-aditional h2 {
+  color: #57cc99;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+p, a {
+  font-size: 1rem;
+}
+
+body {
+  font-family: Merriweather Sans, sans-serif;
+}
+
+/*# sourceMappingURL=index.2e8c441c.css.map */

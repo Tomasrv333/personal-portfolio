@@ -1,0 +1,36 @@
+$color-1: #000000;
+$color-2: #4880A5;
+$color-3: #57CC99;
+$color-4: #F5F5F5;
+
+$light: 300;
+$regular: 400;
+$bold: 600;
+$extra-bold: 700;
+
+@mixin buttom-1 {
+    width: fit-content;
+    color: $color-3;
+    background-color: transparent;
+    padding: 0.7rem 1.1rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid $color-3;
+    
+}
+
+@mixin for-phone-only {
+    @media (min-width: 576px) {@content;}
+}
+
+@mixin for-tablet-only {
+    @media (min-width: 768px) {@content;}
+}
+
+@mixin for-tablet-laptop {
+    @media (min-width: 992px) {@content;}
+}
+
+@mixin for-desktop-only {
+    @media (min-width: 1200px) {@content;}
+}
+
