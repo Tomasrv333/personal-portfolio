@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.1rem 3.1rem;
+  background-color: #4880A5;
+  color: #57CC99; }
+  nav a {
+    display: none; }
+  nav .nav-title {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center; }
+    nav .nav-title h2 {
+      color: #57CC99;
+      margin: 0; }
+    nav .nav-title p {
+      color: #F5F5F5;
+      margin: 0; }
+    nav .nav-title svg {
+      display: none; }
+  nav .nav-items {
+    display: flex;
+    align-items: center; }
+    nav .nav-items a {
+      margin-left: 6rem;
+      cursor: pointer; }
+    nav .nav-items svg {
+      width: 24px;
+      height: 24px;
+      margin: 16px 0; }
+  @media (min-width: 576px) {
+    nav {
+      display: flex;
+      padding: 0; } }
+  @media (min-width: 1200px) {
+    nav {
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.8rem 10rem; } }
+
+.background {
+  height: 40vh;
+  padding: 0 3.1rem;
+  background-color: #4880A5; }
+
+.main-resume {
+  height: fit-content;
+  padding: 3.1rem 3.1rem; }
+
+.resume-content h2 {
+  color: #57CC99; }
+
+.resume-content p {
+  font-weight: 300;
+  text-align: justify;
+  color: #b3b3b3; }
+
+.resume-content span {
+  color: #57CC99;
+  font-weight: 600; }
+
+.resume-content .resume-badge {
+  width: fit-content;
+  height: 1.8rem;
+  border: 0.1rem solid #57CC99;
+  border-radius: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .resume-content .resume-badge svg {
+    width: 22px;
+    height: 100%;
+    padding: 0.3rem;
+    color: #F5F5F5;
+    background-color: #57CC99;
+    border-radius: 0.5rem 0 0 0.5rem; }
+  .resume-content .resume-badge span {
+    color: #57CC99;
+    font-weight: 300;
+    margin: 0 0.3rem; }
+
+.resume-content .resume-links {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.6rem; }
+  .resume-content .resume-links button {
+    width: fit-content;
+    color: #57CC99;
+    background-color: transparent;
+    padding: 0.7rem 1.1rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #57CC99;
+    display: flex;
+    align-items: center; }
+  .resume-content .resume-links .links-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; }
+    .resume-content .resume-links .links-icons svg {
+      width: 24px;
+      height: 24px;
+      stroke-width: 0.2rem;
+      color: #57CC99; }
+
+.main-description {
+  padding: 3.1rem; }
+  .main-description h2 {
+    color: #57CC99; }
+  .main-description p {
+    font-weight: 300;
+    text-align: justify;
+    color: #b3b3b3; }
+
+#main-project {
+  margin: 3.1rem;
+  justify-content: center;
+  align-items: center; }
+  #main-project h2 {
+    color: #57CC99;
+    margin-bottom: 1rem; }
+  #main-project .project-content .project-card {
+    width: 20rem;
+    height: 70vh;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    background-color: #4880A5; }
+  #main-project .project-content .project-img {
+    width: 20rem;
+    height: 16rem;
+    background-color: #F5F5F5;
+    margin-bottom: 1rem; }
+
+.main-skills {
+  padding: 3.1rem; }
+  .main-skills h2 {
+    color: #57CC99; }
+
+.skill-card {
+  background-color: white;
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  margin-top: 1rem; }
+  .skill-card h3 {
+    margin: 0;
+    color: #4880A5; }
+  .skill-card li {
+    color: #b3b3b3; }
+
+.main-education {
+  padding: 3.1rem; }
+  .main-education h2 {
+    color: #57CC99; }
+
+.main-aditional {
+  padding: 3.1rem; }
+  .main-aditional h2 {
+    color: #57CC99; }
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #4880A5; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  background-color: #F5F5F5;
+  font-family: 'Merriweather Sans', sans-serif; }
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 900; }
+
+h2 {
+  font-size: 1.8rem;
+  margin: 0; }
+
+p, a, span {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 400; }
+
+ul {
+  padding: 0; }
+  ul li {
+    list-style-position: inside; }

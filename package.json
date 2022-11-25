@@ -4,7 +4,8 @@
   "description": "",
   "source": "./src/index.html",
   "scripts": {
-    "dev": "parcel ./src/index.html"
+    "dev": "parcel ./src/index.html",
+    "compile:sass": "node-sass ./src/scss/style.scss ./src/css/main.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,10 @@
   "bugs": {
     "url": "https://github.com/Tomasrv333/personal-portfolio/issues"
   },
-  "homepage": "https://github.com/Tomasrv333/personal-portfolio#readme",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.0",
-    "parcel": "^2.8.0"
-  },
+  "homepage": "https://github.com/Tomasrv333/personal-portfolio",
   "dependencies": {
-    "bootstrap-icons": "^1.10.2"
+    "bootstrap-icons": "^1.10.2",
+    "node-sass": "^8.0.0",
+    "npkill": "^0.10.0"
   }
 }

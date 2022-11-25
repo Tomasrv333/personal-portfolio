@@ -1,0 +1,67 @@
+@import './variables.scss';
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.1rem 3.1rem;
+    background-color: $color-2;
+    color: $color-3;
+
+    a {
+        display: none;
+    }
+
+    .nav-title {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+            color: $color-3;
+            margin: 0;
+        }
+
+        p {
+            color: $color-4;
+            margin: 0;
+        }
+
+        svg {
+            display: none;
+        }
+    }
+
+    .nav-items {
+        display: flex;
+        align-items: center;
+
+        a {
+            margin-left: 6rem;
+            cursor: pointer;
+        }
+
+        svg {
+            width: 24px;
+            height: 24px;
+            margin: 16px 0;
+        }
+    }
+
+    @include for-phone-only {
+        display: flex;
+        padding: 0;
+    }
+
+    @include for-desktop-only {
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.8rem 10rem;
+    }
+
+    
+}
+    
+
+    
