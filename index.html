@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full-Stack Developer Portfolio</title>
-    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
@@ -97,25 +97,29 @@
         <section id="main-project" class="swiper mySwiper">
             <h2>Mis proyectos</h2>
             <div class="project-content swiper-wrapper">
-                <div class="project-card swiper-slide">
-                    <div class="project-img">
+                <div class="project-slide swiper-slide">
+                    <div class="project-card">
+                        <div class="project-img">
 
-                    </div>
-                    <h2>Project 1</h2>
-                    <p>Breve descripcion</p>
-                    <div class="project-links">
-
+                        </div>
+                        <h2>Project 1</h2>
+                        <p>Breve descripcion</p>
+                        <div class="project-links">
+    
+                        </div>
                     </div>
                 </div>
 
-                <div class="project-card swiper-slide" style="width: 20rem">
-                    <div class="project-img">
+                <div class="project-slide swiper-slide" style="width: 20rem">
+                    <div class="project-card">
+                        <div class="project-img">
 
-                    </div>
-                    <h2>Project 2</h2>
-                    <p>Breve descripcion</p>
-                    <div class="project-links">
-
+                        </div>
+                        <h2>Project 2</h2>
+                        <p>Breve descripcion</p>
+                        <div class="project-links">
+    
+                        </div>
                     </div>
                 </div>
 
@@ -152,13 +156,48 @@
 
         <section class="main-education">
             <h2>Educacion</h2>
-            <div>
-                <h3>Universidad</h3>
+            <div class="education-section">
+                <h3>Universidad<span>En curso - 5° semestre</span></h3>
+                <div>
+                    <h4>Ingenieria de Sistemas</h4>
+                    <p>Universidad Luis Amigo - Medellin</p>
+                </div>
+            </div>
+            <div class="education-section">
+                <h3>Bootcamps</h3>
+                <div>
+                    <h4>Desarrollo Web Full Stack</h4>
+                    <p>DEV.F - Virtual</p>
+                    <h4>Habilidades Socioemocionales</h4>
+                    <p>ProTalento - Virtual</p>
+                    <h4>Tech English</h4>
+                    <p>Primera HFC</p>
+                    <h4>Ingles (B1)</h4>
+                    <p>Gt Education Center - Chicago</p>
+                </div>
+            </div>
+            <div class="education-section">
+                <h3>Cursos</h3>
+                <div>
+                    <h4>JavaScript Moderno y Desarrollo Web Completo<span>Udemy</span></h4>
+                    <h4>freeCodeCamp</h4>
+                    <h4>Platzi</h4>
+                </div>
             </div>
         </section>
 
-        <section class="main-aditional">
-            <h2>Informacion adicional</h2>
+        <section class="main-contact">
+            <h2>Contacto</h2>
+            <p>Enviame un mensaje</p>
+            <form action="">
+                <label for="name">Nombre</label>
+                <input name="name" type="text" placeholder="Ingresa tu nombre">
+                <label for="email">Email</label>
+                <input name="email" type="email" id="email-contact" placeholder="Ingresa un correo valido">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message-contact" rows="5" placeholder="Cual es tu mensaje?"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
 
     </main>
@@ -168,6 +207,6 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/app.js"></script>
+    <script src="/src/js/app.js"></script>
 </body>
 </html>

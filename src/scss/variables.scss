@@ -8,14 +8,22 @@ $regular: 400;
 $bold: 600;
 $extra-bold: 700;
 
-@mixin buttom-1 {
+@mixin button-1 {
     width: fit-content;
     color: $color-3;
     background-color: transparent;
     padding: 0.7rem 1.1rem;
     border-radius: 0.6rem;
-    border: 0.1rem solid $color-3;
-    
+    border: 0.1rem solid $color-3; 
+}
+
+@mixin button-2 {
+    width: fit-content;
+    color: $color-4;
+    background-color: $color-3;
+    padding: 0.7rem 1.1rem;
+    border-radius: 0.6rem;
+    border: none;
 }
 
 @mixin for-phone-only {

@@ -7,3 +7,39 @@
         color: $color-3;
     }
 }
+
+.education-section {
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.6rem;
+
+    div {
+        border-left: 0.19rem solid $color-2;
+        padding-left: 0.5rem;
+    }
+
+    h3 {
+        margin-top: 0;
+        color: $color-2;
+
+        span {
+            color: lighten($color: $color-1, $amount: 70);
+            display: block;
+        }
+    }
+
+    h4 {
+        color: $color-3;
+        margin-bottom: 0.2rem;
+
+        span {
+            color: $color-1;
+            display: block;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}

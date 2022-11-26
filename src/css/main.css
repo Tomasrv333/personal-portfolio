@@ -127,17 +127,21 @@ nav {
   #main-project h2 {
     color: #57CC99;
     margin-bottom: 1rem; }
-  #main-project .project-content .project-card {
-    width: 20rem;
-    height: 70vh;
-    padding: 2.5rem;
-    border-radius: 1rem;
-    background-color: #4880A5; }
-  #main-project .project-content .project-img {
-    width: 20rem;
-    height: 16rem;
-    background-color: #F5F5F5;
-    margin-bottom: 1rem; }
+
+.project-content {
+  height: 70vh; }
+  .project-content .project-slide {
+    padding: 3.1rem; }
+    .project-content .project-slide .project-card {
+      height: 70vh;
+      border-radius: 0.6rem;
+      border: 0.1rem solid #57CC99;
+      overflow: hidden; }
+    .project-content .project-slide .project-img {
+      width: 100%;
+      height: 16rem;
+      background-color: #4880A5;
+      margin-bottom: 1rem; }
 
 .main-skills {
   padding: 3.1rem; }
@@ -160,10 +164,65 @@ nav {
   .main-education h2 {
     color: #57CC99; }
 
-.main-aditional {
-  padding: 3.1rem; }
-  .main-aditional h2 {
+.education-section {
+  background-color: white;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.6rem; }
+  .education-section div {
+    border-left: 0.19rem solid #4880A5;
+    padding-left: 0.5rem; }
+  .education-section h3 {
+    margin-top: 0;
+    color: #4880A5; }
+    .education-section h3 span {
+      color: #b3b3b3;
+      display: block; }
+  .education-section h4 {
+    color: #57CC99;
+    margin-bottom: 0.2rem; }
+    .education-section h4 span {
+      color: #000000;
+      display: block; }
+  .education-section p {
+    margin: 0; }
+
+.main-contact {
+  padding: 3.1rem;
+  background-color: #4880A5; }
+  .main-contact h2 {
     color: #57CC99; }
+  .main-contact p {
+    margin: 0;
+    color: #F5F5F5; }
+  .main-contact form {
+    margin-top: 1rem;
+    padding: 1.5rem 3rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5; }
+    .main-contact form label {
+      margin-top: 1rem;
+      color: #57CC99; }
+    .main-contact form input, .main-contact form textarea {
+      width: 100%;
+      border: 0;
+      margin: 0.6rem 0;
+      padding: 1.2rem;
+      outline: none;
+      background-color: #F5F5F5;
+      font-size: 1rem;
+      border: 0.1rem solid #57CC99;
+      border-radius: 0.6rem; }
+    .main-contact form button {
+      width: fit-content;
+      color: #F5F5F5;
+      background-color: #57CC99;
+      padding: 0.7rem 1.1rem;
+      border-radius: 0.6rem;
+      border: none;
+      margin: 1rem auto 0 auto; }
 
 .footer {
   width: 100%;
@@ -192,8 +251,14 @@ h2 {
   font-size: 1.8rem;
   margin: 0; }
 
+h3 {
+  font-size: 1.6; }
+
+h4 {
+  font-size: 1.4; }
+
 p, a, span {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
   font-weight: 400; }
 

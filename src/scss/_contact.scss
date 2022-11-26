@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+.main-contact {
+    padding: 3.1rem;
+    background-color: $color-2;
+
+    h2 {
+        color: $color-3;
+    }
+
+    p {
+        margin: 0;
+        color: $color-4;
+    }
+
+    form {
+        margin-top: 1rem;
+        padding: 1.5rem 3rem;
+        border-radius: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-4;
+
+        label {
+            margin-top: 1rem;
+            color: $color-3;
+        }
+
+        input, textarea {
+            width: 100%;
+            border: 0;
+            margin: 0.6rem 0;
+            padding: 1.2rem;
+            outline: none;
+            background-color: $color-4;
+            font-size: 1rem;
+            border: 0.1rem solid $color-3;
+            border-radius: 0.6rem
+        }
+
+        button {
+            @include button-2;
+            margin: 1rem auto 0 auto;
+        }
+    }
+}
