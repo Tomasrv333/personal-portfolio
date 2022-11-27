@@ -4,3 +4,9 @@ var swiper = new Swiper(".mySwiper", {
       dynamicBullets: true,
     },
   });
+
+  let inputName = document.querySelector('#form')
+
+  
+
+  console.log(inputName)
