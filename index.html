@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full-Stack Developer Portfolio</title>
     <link rel="stylesheet" type="text/css" href="src/css/main.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
 </head>
 <body>
     <nav>
@@ -52,7 +48,6 @@
                 </div>
             </div>
         </section>
-
         <section class="main-resume">
             <div class="resume-content">
                 <h2>Tomas Rios Vargas</h2>
@@ -84,118 +79,192 @@
         </section>
 
         <section class="main-description">
-            <h2>Acerca de mi</h2>
-            <p>Estudiante en Ingeniería de Sistemas cursando el 5° semestre con formación en estructura de datos, lógica en programación y desarrollo web como Full-Stack Developer. Algunas de mis competencias para la creación de sitios y aplicaciones web son WordPress, HTML, CSS, SASS, JavaScript, React.js, Mongodb y SQL. Con mis conocimientos en desarrollo busco generar soluciones digitales que potencialicen la experiencia del usuario en todo tipo de servicio en línea. Además, me caracterizo por mi autocontrol, resiliencia y colaboración.</p>
-        </section>
-
-        <section id="main-project" class="swiper mySwiper">
-            <h2>Mis proyectos</h2>
-            <div class="project-content swiper-wrapper">
-                <div class="project-slide swiper-slide">
-                    <div class="project-card">
-                        <div class="project-img">
-
-                        </div>
-                        <div class="project-info">
-                            <h2>Project 1</h2>
-                            <p>Breve descripcion</p>
-                        </div>
-                        <div class="project-links">
-    
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-slide swiper-slide" style="width: 20rem">
-                    <div class="project-card">
-                        <div class="project-img">
-
-                        </div>
-                        <div class="project-info">
-                            <h2>Project 2</h2>
-                            <p>Breve descripcion</p>
-                        </div>
-                        <div class="project-links">
-    
-                        </div>
-                    </div>
-                </div>
-
+            <div class="description">
+                <h2>Acerca de mi</h2>
+                <p>Estudiante en Ingeniería de Sistemas cursando el 5° semestre con formación en estructura de datos, lógica en programación y desarrollo web como Full-Stack Developer. Algunas de mis competencias para la creación de sitios y aplicaciones web son WordPress, HTML, CSS, SASS, JavaScript, React.js, Mongodb y SQL. Con mis conocimientos en desarrollo busco generar soluciones digitales que potencialicen la experiencia del usuario en todo tipo de servicio en línea. Además, me caracterizo por mi autocontrol, resiliencia y colaboración.</p>    
+                <button>Descarga mi CV</button>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="description-items">
+                <div class="box-item">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="box-item">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="box-item">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
         </section>
 
         <section class="main-skills">
             <h2>Habilidades tecnicas</h2>
-            <div class="front-skill skill-card">
-                <h3>Front-end</h3>
-                <ul>
-                    <li>React js</li>
-                    <li>JavaScript</li>
-                    <li>BootStrap</li>
-                </ul>
+            <div class="skill-content">
+                <div class="skill-item">
+                    <img src="/src/img/icon-github.svg" alt="">
+                    <p>Github</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-react.svg" alt="">
+                    <p>React</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-js.svg" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-bootstrap.svg" alt="">
+                    <p>BootStrap</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-express.svg" alt="">
+                    <p>ExpressJS</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-nodejs.png" alt="">
+                    <p>NodeJS</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-mongo.svg" alt="">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item">
+                    <img src="/src/img/icon-mysql.svg" alt="">
+                    <p>MySQL</p>
+                </div>
+                
+                <div class="front-skill skill-card">
+                    <h3>Front-end</h3>
+                    <ul>
+                        <li>React js</li>
+                        <li>JavaScript</li>
+                        <li>BootStrap</li>
+                    </ul>
+                </div>
+                <div class="back-skill skill-card">
+                    <h3>Back-end</h3>
+                    <ul>
+                        <li>Express</li>
+                        <li>Mongoose</li>
+                        <li>Node Js</li>
+                    </ul>
+                </div>
+                <div class="database-skill skill-card">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>MondoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
             </div>
-            <div class="back-skill skill-card">
-                <h3>Back-end</h3>
-                <ul>
-                    <li>Express</li>
-                    <li>Mongoose</li>
-                    <li>Node Js</li>
-                </ul>
-            </div>
-            <div class="database-skill skill-card">
-                <h3>Database</h3>
-                <ul>
-                    <li>MondoDB</li>
-                    <li>MySQL</li>
-                </ul>
+        </section>
+
+        <section id="main-project">
+            <h2>Mis proyectos</h2>
+            <div class="project-content">
+                <div class="project-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vitae, deleniti autem veritatis vero pariatur voluptas id dolore aliquam accusamus aperiam! Quia laudantium at nulla quod. Sunt debitis aperiam suscipit!</p>
+                    
+                </div>
+                <div class="project-items">
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            <p>Nombre</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            <p>Nombre</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            <p>Nombre</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card-content">
+                            <p>Nombre</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="main-education">
             <h2>Educacion</h2>
-            <div class="education-section">
-                <h3>Universidad<span>En curso - 5° semestre</span></h3>
-                <div>
-                    <h4>Ingenieria de Sistemas</h4>
-                    <p>Universidad Luis Amigo - Medellin</p>
+            <div class="education-content">
+                <img src="/src/img/img-education.png" alt="">
+                <div class="education-items">
+                    <div class="education-section">
+                        <h3>Universidad<span>En curso - 5° semestre</span></h3>
+                        <div>
+                            <h4>Ingenieria de Sistemas</h4>
+                            <p>Universidad Luis Amigo - Medellin</p>
+                        </div>
+                    </div>
+                    <div class="education-section">
+                        <h3>Bootcamps</h3>
+                        <div>
+                            <h4>Desarrollo Web Full Stack</h4>
+                            <p>DEV.F - Virtual</p>
+                            <h4>Habilidades Socioemocionales</h4>
+                            <p>ProTalento - Virtual</p>
+                            <h4>Tech English</h4>
+                            <p>Primera HFC</p>
+                            <h4>Ingles (B1)</h4>
+                            <p>Gt Education Center - Chicago</p>
+                        </div>
+                    </div>
+                    <div class="education-section">
+                        <h3>Cursos</h3>
+                        <div>
+                            <h4>JavaScript Moderno y Desarrollo Web Completo<span>Udemy</span></h4>
+                            <h4>freeCodeCamp</h4>
+                            <h4>Platzi</h4>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
-            <div class="education-section">
-                <h3>Bootcamps</h3>
-                <div>
-                    <h4>Desarrollo Web Full Stack</h4>
-                    <p>DEV.F - Virtual</p>
-                    <h4>Habilidades Socioemocionales</h4>
-                    <p>ProTalento - Virtual</p>
-                    <h4>Tech English</h4>
-                    <p>Primera HFC</p>
-                    <h4>Ingles (B1)</h4>
-                    <p>Gt Education Center - Chicago</p>
-                </div>
-            </div>
-            <div class="education-section">
-                <h3>Cursos</h3>
-                <div>
-                    <h4>JavaScript Moderno y Desarrollo Web Completo<span>Udemy</span></h4>
-                    <h4>freeCodeCamp</h4>
-                    <h4>Platzi</h4>
-                </div>
-            </div>
+            
         </section>
 
         <section class="main-contact">
             <h2>Contacto</h2>
             <p>Enviame un mensaje</p>
-            <form id="form" action="">
-                <label for="name">Nombre</label>
-                <input name="name" type="text" placeholder="Ingresa tu nombre">
-                <label for="email">Email</label>
-                <input name="email" type="email" id="email-contact" placeholder="Ingresa un correo valido">
-                <label for="message">Mensaje</label>
-                <textarea name="message" id="message-contact" rows="5" placeholder="Cual es tu mensaje?"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
+            <div class="contact-content">
+                    <form id="form" action="">
+                        <label for="name">Nombre</label>
+                        <input name="name" type="text" placeholder="Ingresa tu nombre">
+                        <label for="email">Email</label>
+                        <input name="email" type="email" id="email-contact" placeholder="Ingresa un correo valido">
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message-contact" rows="5" placeholder="Cual es tu mensaje?"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                <img src="/src/img/img-contact.png" alt="">
+            </div>
+            
         </section>
 
     </main>
@@ -204,7 +273,6 @@
 
     </footer>
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="/src/js/app.js"></script>
 </body>
 </html>

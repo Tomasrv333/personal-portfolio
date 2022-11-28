@@ -7,6 +7,8 @@ nav {
     padding: 3.1rem 3.1rem;
     background-color: $color-2;
     color: $color-3;
+    position: fixed;
+    z-index: 1000;
 
     a {
         display: none;
@@ -55,12 +57,23 @@ nav {
 
     @include for-tablet-only {
         padding: 1.5rem 5.1rem 0 5.1rem;
+
+        .nav-items {
+            a {
+                display: block;
+                color: $color-4;
+            }
+
+            svg {
+                display: none;
+            }
+        }
     }
 
     @include for-desktop-only {
         justify-content: space-between;
         align-items: center;
-        padding: 1.8rem 10rem 0 10rem;
+        padding: 1.2rem 10rem 1.2rem 10rem;
     }
 
     

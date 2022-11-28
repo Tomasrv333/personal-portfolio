@@ -17,6 +17,7 @@
         justify-content: space-around;
         align-items: center;
         gap: 3.1rem;
+        margin-bottom: 3.1rem;
 
         .background-side {
             display: block;
@@ -54,7 +55,8 @@
             }
 
             button {
-                @include button-2
+                @include button-2;
+                margin-top: 4rem;
             }
         }
 
@@ -67,9 +69,11 @@
     }
 
     @include for-desktop-only {
-        padding: 0 10rem;
+        padding: 0 $p-desktop;
+        margin-bottom: $m-bottom;
 
         .side-3 {
+
             img {
                 height: 40rem;
             }

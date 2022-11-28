@@ -7,6 +7,10 @@
     @include for-tablet-only {
         display: none;
     }
+
+    @include for-desktop-only {
+        padding: 0 $p-desktop;
+    }
 }
 
 .resume-content {

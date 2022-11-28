@@ -13,13 +13,23 @@
         color: $color-4;
     }
 
+    @include for-tablet-laptop {
+        padding: 10rem $p-desktop;
+    }
+}
+
+.contact-content {
+    background-color: $color-4;
+    border-radius: 0.6rem;
+    margin-top: 2rem;
+
     form {
+        width: 60%;
         margin-top: 1rem;
         padding: 1.5rem 3rem;
         border-radius: 0.6rem;
         display: flex;
         flex-direction: column;
-        background-color: $color-4;
 
         label {
             margin-top: 1rem;
@@ -33,7 +43,7 @@
             padding: 1.2rem;
             outline: none;
             background-color: $color-4;
-            font-size: 1rem;
+            font-size: 1.3rem;
             border: 0.1rem solid $color-3;
             border-radius: 0.6rem
         }
@@ -41,6 +51,17 @@
         button {
             @include button-2;
             margin: 1rem auto 0 auto;
+        }
+    }
+
+    @include for-tablet-laptop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4rem 10rem;
+
+        img {
+            width: 40%;
         }
     }
 }

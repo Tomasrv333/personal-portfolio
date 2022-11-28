@@ -6,8 +6,23 @@
     h2 {
         color: $color-3;
     }
-}
 
+    @include for-tablet-laptop {
+        padding: 0 $p-desktop;
+        margin-bottom: $m-bottom;
+
+        h2 {
+            margin-bottom: 2rem;
+        }
+
+        .skill-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+    }
+}
 
 .skill-card {
     background-color: white;
@@ -22,5 +37,28 @@
 
     li {
         color: lighten($color: $color-1, $amount: 70);
+    }
+
+    @include for-tablet-laptop {
+        display: none;
+    }
+}
+
+.skill-item {
+    display: none;
+
+    img {
+        width: 32px;
+        height: 32px;
+        margin-right: 0.6rem;
+    }
+
+    @include for-tablet-laptop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 0.6rem;
+        padding: 0.4rem 1.2rem;
     }
 }
